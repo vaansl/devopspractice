@@ -1,1 +1,9 @@
 Hello devops team
+pipeline  {
+  agent any {
+    tools {
+      maven "maven3.9.0:
+      jdk 'java17'
+  stages {
+    stage {
+      steps {
