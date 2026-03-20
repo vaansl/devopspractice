@@ -1,9 +1,9 @@
-Hello devops team
-pipeline  {
-  agent any {
-    tools {
-      maven "maven3.9.0:
-      jdk 'java17'
-  stages {
-    stage {
-      steps {
+Hello 
+------
+name: install java on ubuntu
+hosts: all
+become: true
+task:
+  name: install java
+  apt: 
+    name: openjdk-11-jdk
