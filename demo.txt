@@ -1,3 +1,5 @@
 Hello devops team
 I recently got married on 30th November 2025
 I came to noida on 7th December after marriage.
+I have update some change in pom.txt and I have not performed git pull or git fetch and git merge.
+I will be trying to push code from local to remote without git pull
